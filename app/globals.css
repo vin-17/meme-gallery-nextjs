@@ -1,21 +1,11 @@
-/* styles/globals.css */
+
 body {
   font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
+  background-color: #2D3250;
+  /* background-image: linear-gradient(to bottom right, #38A2D7, #561139); */
 }
 
-.meme-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
 
-.meme-item {
-  cursor: pointer;
-}
 
-.load-more {
-  margin-top: 10px;
-  cursor: pointer;
-}

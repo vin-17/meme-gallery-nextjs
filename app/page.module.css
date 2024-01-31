@@ -1,23 +1,16 @@
-/* MemeGallery.module.css */
+/* page.module.css */
 
-.meme-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
+
+.memeGallery {
+  padding: 20px;
+  background-color: #424769;
+  /* background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40); */
+
+  margin: 10px;
 }
 
-.meme-item {
-  position: relative;
-  cursor: pointer;
-}
 
-.meme-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
-.loading {
-  text-align: center;
-  margin-top: 20px;
-}
+
+
+
