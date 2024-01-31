@@ -1,15 +1,18 @@
-Meme Gallery
+##Meme Gallery
 This project is a gallery of memes created using Next.js and Reddit's API. It fetches posts from the subreddit r/memes and displays them in a visually appealing gallery format. Users can click on thumbnails to view the full resolution images using the Photoswipe library.
 
-Features
-Fetches memes from Reddit's API
-Displays memes in a gallery format
-Allows users to view full resolution images by clicking on thumbnails
-Infinite scrolling implemented for seamless browsing experience
-Installation
-Clone the repository:
+##Features
+-Fetches memes from Reddit's API
+-Displays memes in a gallery format
+-Allows users to view full resolution images by clicking on thumbnails
+-Infinite scrolling implemented for seamless browsing experience
+
+##Installation
 
 ```bash
+Clone the repository:
+
+
 Copy code
 git clone https://github.com/yourusername/memes-gallery.git
 Navigate to the project directory:
@@ -30,17 +33,19 @@ npm run dev
 Open your browser and go to http://localhost:3000 to view the gallery.
 ```
 
-How it Works
+##How it Works
 The application fetches posts from Reddit's API using the subreddit r/memes.
 It extracts thumbnails and URLs from the fetched posts.
 Photoswipe library is used to display thumbnails in a gallery format.
 Users can click on thumbnails to view the full resolution images.
 Infinite scrolling is implemented to fetch more entries as the user scrolls down the gallery.
-Technologies Used
-Next.js
-React
-Reddit API
-Photoswipe
+
+
+##Technologies Used
+-Next.js
+-React
+-Reddit API
+-Photoswipe
 
 
 
